@@ -1,3 +1,4 @@
+//all about DOM
 //document.getElementById("abcd");
 //console.log(abcd);
 //let efgh=document.getElementsByClassName("efgh");
