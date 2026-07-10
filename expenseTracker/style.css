@@ -1,0 +1,191 @@
+/* =========================
+   Google Font
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* =========================
+   Variables
+========================= */
+
+:root{
+
+    --bg:#F7F8FC;
+    --sidebar:#FFFFFF;
+    --card:#FFFFFF;
+
+    --primary:#5B8DEF;
+    --green:#4CAF50;
+    --red:#FF5A5F;
+    --orange:#F4A261;
+
+    --text:#1F2937;
+    --light-text:#6B7280;
+
+    --border:#E5E7EB;
+
+    --shadow:0 10px 25px rgba(0,0,0,.08);
+
+    --radius:18px;
+
+}
+body{
+
+    background:var(--bg);
+
+    display:flex;
+
+    min-height:100vh;
+
+    color:var(--text);
+
+}
+.sidebar{
+
+    width:260px;
+
+    background:var(--sidebar);
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+}
+.logo{
+
+    margin-bottom:50px;
+
+}
+
+.logo h2{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+nav ul{
+
+    list-style:none;
+
+}
+
+nav li{
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+nav li:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+.main-content{
+
+    flex:1;
+
+    padding:40px;
+
+}
+.header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+.header h1{
+
+    font-size:38px;
+
+}
+
+.header p{
+
+    color:var(--light-text);
+
+    margin-top:5px;
+
+}
+.header button{
+
+    border:none;
+
+    background:white;
+
+    padding:12px 18px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    box-shadow:var(--shadow);
+
+    font-size:20px;
+
+}
+.summary-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-bottom:35px;
+
+}
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+.card h3{
+
+    color:var(--light-text);
+
+    margin-bottom:12px;
+
+    font-size:16px;
+
+}
+
+.card h2{
+
+    font-size:32px;
+
+}
