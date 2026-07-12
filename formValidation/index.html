@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <input  required minlength="3" id="na" type="text" placeholder="name">
+        <div id="hide">
+        <br>
+        <small>Your name should be greater than 2 character</small>
+        </div>
+        <br><br>
+        <input required  type="email" placeholder="email">
+        <br><br>
+        <input required type="password" placeholder="password">
+        <br><br>
+        <select required name="" id="">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select>
+        <br><br>
+        <textarea required name="" placeholder="Tell us about your..."></textarea>
+        <br><br>
+        <input type="submit" placeholder="submit">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
